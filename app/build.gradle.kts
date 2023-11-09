@@ -49,9 +49,9 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation("androidx.viewpager2:viewpager2:1.0.0")
-
+    //Glide
     implementation ("com.github.bumptech.glide:glide:4.16.0")
-
+    //Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
