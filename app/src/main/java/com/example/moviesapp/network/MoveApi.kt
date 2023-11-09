@@ -1,5 +1,8 @@
-package com.example.moviesapp.Data
+package com.example.moviesapp.network
 
+import com.example.moviesapp.data.Data
+import com.example.moviesapp.data.Genres
+import com.example.moviesapp.data.MovieDetail
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

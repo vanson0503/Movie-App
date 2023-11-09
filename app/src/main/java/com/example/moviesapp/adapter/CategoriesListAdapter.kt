@@ -1,11 +1,11 @@
-package com.example.moviesapp.Adapter
+package com.example.moviesapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.moviesapp.Data.Genres
+import com.example.moviesapp.data.Genres
 import com.example.moviesapp.R
 
 class CategoriesListAdapter(val categoryList:Genres):RecyclerView.Adapter<CategoriesListAdapter.CategoriesViewHolder>() {

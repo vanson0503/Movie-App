@@ -1,4 +1,4 @@
-package com.example.moviesapp
+package com.example.moviesapp.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
         binding.btnLogin.setOnClickListener {
             if(binding.edtUsername.text.isNotEmpty()&&binding.edtPassword.text.isNotEmpty()){
                 if(binding.edtUsername.text.toString().equals("test")){
-                    startActivity(Intent(this,MainActivity::class.java))
+                    startActivity(Intent(this, MainActivity::class.java))
                 }
                 else{
                     Toast.makeText(this, "Username or password is not correct!", Toast.LENGTH_SHORT).show()

@@ -1,19 +1,19 @@
-package com.example.moviesapp
+package com.example.moviesapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
-import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bumptech.glide.Glide
-import com.example.moviesapp.Adapter.CategoriesListAdapter
-import com.example.moviesapp.Adapter.FilmListAdapter
-import com.example.moviesapp.Adapter.SliderAdapters
-import com.example.moviesapp.Data.MovesViewModel
-import com.example.moviesapp.Data.ViewModelFactory
+import com.example.moviesapp.adapter.CategoriesListAdapter
+import com.example.moviesapp.adapter.FilmListAdapter
+import com.example.moviesapp.adapter.SliderAdapters
+import com.example.moviesapp.viewModel.MovesViewModel
+import com.example.moviesapp.data.SliderItem
+import com.example.moviesapp.viewModel.ViewModelFactory
 import com.example.moviesapp.databinding.ActivityMainBinding
+import com.example.moviesapp.utils.DepthPageTransformer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

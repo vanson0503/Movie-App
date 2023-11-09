@@ -1,9 +1,13 @@
-package com.example.moviesapp.Data
+package com.example.moviesapp.viewModel
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.moviesapp.data.Data
+import com.example.moviesapp.data.Genres
+import com.example.moviesapp.data.MovieDetail
+import com.example.moviesapp.network.RetrofitInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

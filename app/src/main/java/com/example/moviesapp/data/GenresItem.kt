@@ -1,4 +1,4 @@
-package com.example.moviesapp.Data
+package com.example.moviesapp.data
 
 data class GenresItem(
     val id: Int,

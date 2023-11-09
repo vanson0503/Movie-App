@@ -1,4 +1,4 @@
-package com.example.moviesapp
+package com.example.moviesapp.utils
 
 import android.view.View
 import androidx.viewpager2.widget.ViewPager2

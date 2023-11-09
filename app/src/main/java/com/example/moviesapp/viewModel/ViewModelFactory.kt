@@ -1,4 +1,4 @@
-package com.example.moviesapp.Data
+package com.example.moviesapp.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
